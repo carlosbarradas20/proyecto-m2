@@ -1,0 +1,22 @@
+.carlos {
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+    margin-top: 5%;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size: 40px;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.texto p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    padding: 4%;
+}
