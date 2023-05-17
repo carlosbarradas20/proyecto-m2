@@ -12,14 +12,25 @@ h1 {
 
 }
 
+
 @media(max-width: 576px) {
     .header{
         height: 100%;
+    }
+    .navbar .logo-arriba {
+        width: 20%;
+        height:20% ;
+        padding-bottom: 15%;
     }
 }
 @media(max-width: 756px){
     
     .header {
          height: 100%;
+    }
+    .navbar .logo-arriba {
+        width: 20%;
+        height:20% ;
+        padding-bottom: 27%;
     }
 }
