@@ -30,6 +30,14 @@ h1 {
   margin-left: 9%;
   margin-top: 1%; }
 
+@media (max-width: 576px) {
+  .header {
+    height: 100%; } }
+
+@media (max-width: 756px) {
+  .header {
+    height: 100%; } }
+
 main {
   margin-top: 2%; }
 
@@ -315,10 +323,12 @@ a:hover {
   color: #424242; }
 
 .carlos {
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: auto;
   border-radius: 20%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  padding: 1rem;
+  box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3); }
 
 .contacto {
   display: flex;
